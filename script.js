@@ -25,6 +25,10 @@ mudarpsom.innerText = 'au au'
     mudarpsom.innerText = 'có có cocorocó'
 } else if(animal == 'PÁSSARO' || animal == "PASSARO" || animal == 'PASSARINHO' || animal == 'BEM-TE-VI' || animal == 'BEM TE VI') {
     mudarpsom.innerText = 'piu'
+} else if(animal == 'PATO') {
+mudarpsom.innerText = 'quack'
+} else if(animal == 'VACA') {
+    mudarpsom.innerText = 'muuuuuuuuuuuuuuuu'
 } else {
     mudarpsom.innerText = 'Erro: Animal não encontrado. Exemplos de animais suportados: GALO, GATO e CACHORRO.'
 }
