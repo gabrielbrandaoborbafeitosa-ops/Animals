@@ -34,3 +34,8 @@ mudarpsom.innerText = 'quack'
 }
     //verificar e imitar fim
 }
+input.addEventListener("keydown", (e) => {
+  if (e.code === "Enter") {
+    enter();
+  }
+});
