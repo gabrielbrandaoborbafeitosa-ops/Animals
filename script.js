@@ -29,7 +29,28 @@ mudarpsom.innerText = 'au au'
 mudarpsom.innerText = 'quack'
 } else if(animal == 'VACA') {
     mudarpsom.innerText = 'muuuuuuuuuuuuuuuu'
-} else {
+} else if(animal == 'ORNITORRINCO') {
+    alert('Animal raro!');
+    mudarpsom.innerText = 'Raro: ornitorrinco'
+} else if(animal == 'PANTERA') {
+    alert('Animal raro!')
+    mudarpsom.innerText = 'Raro: pantera'
+} else if (animal == 'POU') {
+    alert('Pou não é animal, mas vai ter o som! (Animal raro)')
+    mudarpsom.innerText = 'nhá! (Raro: pou)'
+} else if(animal == 'boi') {
+    mudarpsom.innerText = 'moooooo'
+} else if(animal == 'CORVO') {
+    alert('Secreto número 1/3')
+    mudarpsom.innerText = 'Secreto n1'
+} else if(animal == 'TIGRE') {
+    alert('Secreto número 2/3')
+    mudarpsom.innerText = 'Secreto n2'
+} else if(animal == 'T-REX') {
+    alert('Secreto 3/3')
+    mudarpsom.innerText = 'Secreto n3'
+}
+else {
     mudarpsom.innerText = 'Erro: Animal não encontrado. Exemplos de animais suportados: GALO, GATO e CACHORRO.'
 }
     //verificar e imitar fim
