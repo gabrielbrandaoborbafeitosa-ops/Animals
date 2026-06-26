@@ -41,14 +41,27 @@ mudarpsom.innerText = 'quack'
 } else if(animal == 'boi') {
     mudarpsom.innerText = 'moooooo'
 } else if(animal == 'CORVO') {
-    alert('Secreto número 1/3')
+    alert('Secreto número 1/4')
     mudarpsom.innerText = 'Secreto n1'
 } else if(animal == 'TIGRE') {
-    alert('Secreto número 2/3')
+    alert('Secreto número 2/4')
     mudarpsom.innerText = 'Secreto n2'
 } else if(animal == 'T-REX') {
-    alert('Secreto 3/3')
+    alert('Secreto 3/4')
     mudarpsom.innerText = 'Secreto n3'
+} else if(animal == 'CAVALO') {
+    mudarpsom.innerText = 'Cavalo não faz som.'
+} else if(animal == 'COELHO') {
+    mudarpsom.innerText = 'Coelho não faz som.'
+} else if(animal == 'PORCO') {
+    mudarpsom.innerText = 'oinc'
+} else if(animal == 'OVELHA') {
+    mudarpsom.innerText = 'bééééééééé'
+} else if(animal == 'ABELHA') {
+    mudarpsom.innerText = 'bzzzzzzzzzzzzz'
+} else if(animal == 'PANGOLIM') {
+alert ('Secreto 4/4')
+mudarpsom.innerText = 'Secreto n4'
 }
 else {
     mudarpsom.innerText = 'Erro: Animal não encontrado. Exemplos de animais suportados: GALO, GATO e CACHORRO.'
