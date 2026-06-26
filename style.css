@@ -1,1 +1,9 @@
-
+button, input {
+  outline: none;
+  border-radius: 20px;
+  display: block;
+  margin: auto;
+}
+strong {
+   text-align: center; 
+}
